@@ -10,7 +10,7 @@ public class ServiceClass {
 
 	@GET
 	@Produces(MediaType.TEXT_PLAIN)
-	@Path("text")
+	@Path("/text")
 	public String textResp() {
 		return "Hello, Welcome to Restful webservices session!";
 	}
